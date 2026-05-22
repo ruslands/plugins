@@ -33,7 +33,7 @@
     {
       "name": "python-skills",
       "source": "./plugins/python-skills",
-      "description": "Python best practices grounded in PEP 8, PEP 20 (Zen of Python), Google Python Style Guide, and Effective Python by Brett Slatkin.",
+      "description": "Python skills for code style, async patterns, testing, packaging, performance, type safety, and uv-based workflows.",
       "version": "1.0.0",
       "license": "Apache-2.0"
     },
@@ -54,7 +54,7 @@
     {
       "name": "frontend-design-skills",
       "source": "./plugins/frontend-design-skills",
-      "description": "Frontend design skills from Anthropic and OpenAI for building visually strong landing pages, websites, and apps.",
+      "description": "Frontend design skills for bold UI implementation, design DNA analysis, and high-quality web and app interfaces.",
       "version": "1.0.0",
       "license": "Apache-2.0"
     },
