@@ -1,0 +1,9 @@
+---
+alwaysApply: false
+---
+### LangChain Expert
+
+https://docs.langchain.com/oss/python/integrations/providers/whatsapp
+
+repo to consider: 
+https://github.com/worldbank/WhatsApp-RAG-Example

@@ -1,0 +1,14 @@
+---
+alwaysApply: false
+---
+Scan the repository for durable knowledge since the previous sync:
+- New/changed modules, endpoints, configs, migrations, dependencies.
+- Conventions/rules introduced in docs/ADR/README.
+- Breaking changes and required env vars (names only, no secrets).
+
+Heuristic steps:
+1) Read project map (folders, key files, docs).
+2) Parse CHANGELOG/ADR/README or last commit messages if present.
+3) Extract durable facts and build "facts" JSON (entities/relations/observations).
+4) Persist via memory.* tools.
+5) Print a short "Memory updated" summary with touched entities.

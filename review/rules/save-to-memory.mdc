@@ -1,0 +1,15 @@
+---
+alwaysApply: false
+---
+From the work just completed, extract durable facts to keep memory up-to-date.
+
+Produce a JSON "facts" object with:
+- entities: [{ name, entityType, observations[] }]
+- relations: [{ from, to, relationType }]
+- observations: [{ entityName, contents[] }]
+
+Then call memory tools:
+1) create_entities (missing only)
+2) create_relations (active voice)
+3) add_observations (atomic)
+4) open_nodes for touched entities and summarize what changed.
