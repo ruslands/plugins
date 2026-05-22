@@ -151,7 +151,7 @@
   "outputStyle": "Explanatory",
   "model": "opus",
   "extraKnownMarketplaces": {
-    "claude-settings": {
+    "plugins": {
       "source": {
         "source": "github",
         "repo": "ruslands/plugins"

@@ -26,7 +26,7 @@ Regenerate the Plugins section of README.md based on current plugin structure an
 
 | Claude Code                                   | Codex CLI                                                                     | Gemini CLI                                               |
 | --------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------- |
-| `/plugin install plugin-name@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `plugin-name` | `gemini extensions install --path ./plugins/plugin-name` |
+| `/plugin install plugin-name@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `plugin-name` | `gemini extensions install --path ./plugins/plugin-name` |
 
 **Skills CLI**
 

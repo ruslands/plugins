@@ -1,4 +1,4 @@
-# claude-settings
+# plugins
 
 > `AGENTS.md` and `GEMINI.md` are symlinks to this file for Codex CLI and Gemini CLI compatibility.
 
@@ -7,7 +7,7 @@ Multi-tool plugin marketplace. Each plugin under `plugins/` is independently ins
 ## Repo Structure
 
 ```
-claude-settings/
+plugins/
   CLAUDE.md                              # this file (repo dev guide)
   AGENTS.md -> CLAUDE.md                 # Codex CLI reads this
   GEMINI.md -> CLAUDE.md                 # Gemini CLI reads this

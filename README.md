@@ -14,7 +14,7 @@ Plugins add skills, commands, and automations to your AI coding tool. Install on
 /plugin marketplace add ruslands/plugins
 
 # Install any plugin by name
-/plugin install < plugin-name > @claude-settings
+/plugin install < plugin-name > @plugins
 ```
 
 </details>
@@ -48,7 +48,7 @@ gemini extensions install --path ./plugins/<plugin-name>
 <summary><strong>Cursor</strong></summary>
 
 ```bash
-cursor plugin install < plugin-name > @claude-settings
+cursor plugin install < plugin-name > @plugins
 ```
 
 </details>
@@ -67,7 +67,7 @@ ln -sfn CLAUDE.md GEMINI.md
 
 | Claude Code                                           | Codex CLI                                                                     | Gemini CLI                                                       |
 | ----------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| `/plugin install intelligent-compact@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `intelligent-compact` | `gemini extensions install --path ./plugins/intelligent-compact` |
+| `/plugin install intelligent-compact@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `intelligent-compact` | `gemini extensions install --path ./plugins/intelligent-compact` |
 
 When Claude Code auto-summarizes a long session, the default summary routinely drops the highest-signal facts. This plugin tells the summarizer to keep them:
 
@@ -89,7 +89,7 @@ Runs on every `/compact` (manual) and every auto compaction. Claude Code only; C
 
 | Claude Code                                              | Codex CLI | Gemini CLI                                                          |
 | -------------------------------------------------------- | --------- | ------------------------------------------------------------------- |
-| `/plugin install claude-telemetry-hooks@claude-settings` | n/a       | `gemini extensions install --path ./plugins/claude-telemetry-hooks` |
+| `/plugin install claude-telemetry-hooks@plugins` | n/a       | `gemini extensions install --path ./plugins/claude-telemetry-hooks` |
 
 Adds the two missing pieces Claude Code's telemetry needs to power a usage dashboard:
 
@@ -110,7 +110,7 @@ Per-device data is already in Claude Code's built-in OpenTelemetry stream. Pairs
 
 | Claude Code                                               | Codex CLI                                                                         | Gemini CLI                                                           |
 | --------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| `/plugin install anthropic-office-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `anthropic-office-skills` | `gemini extensions install --path ./plugins/anthropic-office-skills` |
+| `/plugin install anthropic-office-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `anthropic-office-skills` | `gemini extensions install --path ./plugins/anthropic-office-skills` |
 
 **Skills CLI**
 
@@ -134,7 +134,7 @@ Official office document skills from [anthropics/skills](https://github.com/anth
 
 | Claude Code                                            | Codex CLI                                                                      | Gemini CLI                                                        |
 | ------------------------------------------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| `/plugin install openai-office-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `openai-office-skills` | `gemini extensions install --path ./plugins/openai-office-skills` |
+| `/plugin install openai-office-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `openai-office-skills` | `gemini extensions install --path ./plugins/openai-office-skills` |
 
 **Skills CLI**
 
@@ -158,7 +158,7 @@ Official office document skills from [openai/skills](https://github.com/openai/s
 
 | Claude Code                                     | Codex CLI                                                               | Gemini CLI                                                 |
 | ----------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------- |
-| `/plugin install python-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `python-skills` | `gemini extensions install --path ./plugins/python-skills` |
+| `/plugin install python-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `python-skills` | `gemini extensions install --path ./plugins/python-skills` |
 
 Python coding guidelines grounded in authoritative sources: PEP 8, PEP 20 (Zen of Python), Google Python Style Guide, and Brett Slatkin's "Effective Python" (3rd ed.). Covers code integration, idiomatic patterns, YAGNI anti-abstraction rules, Google-style docstrings, and 18 before/after code examples.
 
@@ -182,7 +182,7 @@ Python coding guidelines grounded in authoritative sources: PEP 8, PEP 20 (Zen o
 
 | Claude Code                                    | Codex CLI                                                              | Gemini CLI                                                |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
-| `/plugin install react-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `react-skills` | `gemini extensions install --path ./plugins/react-skills` |
+| `/plugin install react-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `react-skills` | `gemini extensions install --path ./plugins/react-skills` |
 
 **Skills CLI**
 
@@ -209,7 +209,7 @@ React and frontend best practices from [vercel-labs/agent-skills](https://github
 
 | Claude Code                                     | Codex CLI                                                               | Gemini CLI                                                 |
 | ----------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------- |
-| `/plugin install agent-browser@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `agent-browser` | `gemini extensions install --path ./plugins/agent-browser` |
+| `/plugin install agent-browser@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `agent-browser` | `gemini extensions install --path ./plugins/agent-browser` |
 
 **Skills CLI**
 
@@ -235,7 +235,7 @@ Browser automation via CLI instead of MCP. [93% less context usage](https://medi
 
 | Claude Code                                              | Codex CLI                                                                        | Gemini CLI                                                          |
 | -------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| `/plugin install frontend-design-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `frontend-design-skills` | `gemini extensions install --path ./plugins/frontend-design-skills` |
+| `/plugin install frontend-design-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `frontend-design-skills` | `gemini extensions install --path ./plugins/frontend-design-skills` |
 
 **Skills CLI**
 
@@ -257,7 +257,7 @@ Frontend design skills from [anthropics/claude-plugins-official](https://github.
 
 | Claude Code                                      | Codex CLI                                                                | Gemini CLI                                                  |
 | ------------------------------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| `/plugin install mongodb-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `mongodb-skills` | `gemini extensions install --path ./plugins/mongodb-skills` |
+| `/plugin install mongodb-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `mongodb-skills` | `gemini extensions install --path ./plugins/mongodb-skills` |
 
 **Skills CLI**
 
@@ -286,7 +286,7 @@ Official MongoDB agent skills for schema design, query tuning, Atlas Search, and
 
 | Claude Code                                       | Codex CLI                                                                 | Gemini CLI                                                   |
 | ------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| `/plugin install supabase-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `supabase-skills` | `gemini extensions install --path ./plugins/supabase-skills` |
+| `/plugin install supabase-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `supabase-skills` | `gemini extensions install --path ./plugins/supabase-skills` |
 
 **Skills CLI**
 
@@ -311,7 +311,7 @@ Supabase skills covering Postgres query/schema best practices from [supabase/age
 
 | Claude Code                                     | Codex CLI                                                               | Gemini CLI                                                 |
 | ----------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------- |
-| `/plugin install stripe-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `stripe-skills` | `gemini extensions install --path ./plugins/stripe-skills` |
+| `/plugin install stripe-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `stripe-skills` | `gemini extensions install --path ./plugins/stripe-skills` |
 
 **Skills CLI**
 
@@ -336,7 +336,7 @@ Official Stripe agent skills for payment integration: API selection, Connect pla
 
 | Claude Code                                    | Codex CLI                                                              | Gemini CLI                                                |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
-| `/plugin install polar-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `polar-skills` | `gemini extensions install --path ./plugins/polar-skills` |
+| `/plugin install polar-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `polar-skills` | `gemini extensions install --path ./plugins/polar-skills` |
 
 **Skills CLI**
 
@@ -360,7 +360,7 @@ Official Polar agent skills for billing system, Stripe integration, subscription
 
 | Claude Code                                      | Codex CLI                                                                | Gemini CLI                                                  |
 | ------------------------------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| `/plugin install livekit-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `livekit-skills` | `gemini extensions install --path ./plugins/livekit-skills` |
+| `/plugin install livekit-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `livekit-skills` | `gemini extensions install --path ./plugins/livekit-skills` |
 
 **Skills CLI**
 
@@ -383,7 +383,7 @@ Voice AI agent development with the LiveKit Agents SDK. Cloud-agnostic: supports
 
 | Claude Code                                         | Codex CLI                                                                   | Gemini CLI                                                     |
 | --------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| `/plugin install cloudflare-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `cloudflare-skills` | `gemini extensions install --path ./plugins/cloudflare-skills` |
+| `/plugin install cloudflare-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `cloudflare-skills` | `gemini extensions install --path ./plugins/cloudflare-skills` |
 
 **Skills CLI**
 
@@ -406,7 +406,7 @@ Cloudflare developer platform skill with decision trees for product selection ac
 
 | Claude Code                                              | Codex CLI                                                                        | Gemini CLI                                                          |
 | -------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| `/plugin install web-performance-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `web-performance-skills` | `gemini extensions install --path ./plugins/web-performance-skills` |
+| `/plugin install web-performance-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `web-performance-skills` | `gemini extensions install --path ./plugins/web-performance-skills` |
 
 **Skills CLI**
 
@@ -431,7 +431,7 @@ Bundles the `chrome-devtools` MCP server (no API key needed).
 
 | Claude Code                                          | Codex CLI                                                                    | Gemini CLI                                                      |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| `/plugin install openobserve-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `openobserve-skills` | `gemini extensions install --path ./plugins/openobserve-skills` |
+| `/plugin install openobserve-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `openobserve-skills` | `gemini extensions install --path ./plugins/openobserve-skills` |
 
 **Skills CLI**
 
@@ -460,7 +460,7 @@ Built for AI agents: uses `curl` only, no SDK or CLI dependency. Pairs naturally
 
 | Claude Code                                      | Codex CLI                                                                | Gemini CLI                                                  |
 | ------------------------------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| `/plugin install hetzner-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `hetzner-skills` | `gemini extensions install --path ./plugins/hetzner-skills` |
+| `/plugin install hetzner-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `hetzner-skills` | `gemini extensions install --path ./plugins/hetzner-skills` |
 
 **Skills CLI**
 
@@ -483,7 +483,7 @@ Hetzner Cloud infrastructure management via the `hcloud` CLI. Decision trees for
 
 | Claude Code                                      | Codex CLI                                                                | Gemini CLI                                                  |
 | ------------------------------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| `/plugin install dokploy-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `dokploy-skills` | `gemini extensions install --path ./plugins/dokploy-skills` |
+| `/plugin install dokploy-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `dokploy-skills` | `gemini extensions install --path ./plugins/dokploy-skills` |
 
 **Skills CLI**
 
@@ -549,7 +549,7 @@ Actively maintained plugin development toolkit from [anthropics/claude-plugins-o
 
 | Claude Code                                  | Codex CLI                                                            | Gemini CLI                                              |
 | -------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------- |
-| `/plugin install github-dev@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `github-dev` | `gemini extensions install --path ./plugins/github-dev` |
+| `/plugin install github-dev@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `github-dev` | `gemini extensions install --path ./plugins/github-dev` |
 
 **Skills CLI**
 
@@ -588,7 +588,7 @@ Git and GitHub automation. Run the `setup` skill after install.
 
 | Claude Code                                       | Codex CLI                                                                 | Gemini CLI                                                   |
 | ------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| `/plugin install ultralytics-dev@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `ultralytics-dev` | `gemini extensions install --path ./plugins/ultralytics-dev` |
+| `/plugin install ultralytics-dev@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `ultralytics-dev` | `gemini extensions install --path ./plugins/ultralytics-dev` |
 
 Auto-formatting hooks for Python, JavaScript, Markdown, and Bash.
 
@@ -607,7 +607,7 @@ Auto-formatting hooks for Python, JavaScript, Markdown, and Bash.
 
 | Claude Code                                   | Codex CLI                                                             | Gemini CLI                                               |
 | --------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------- |
-| `/plugin install azure-tools@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `azure-tools` | `gemini extensions install --path ./plugins/azure-tools` |
+| `/plugin install azure-tools@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `azure-tools` | `gemini extensions install --path ./plugins/azure-tools` |
 
 **Skills CLI**
 
@@ -635,7 +635,7 @@ npx skills add https://github.com/ruslands/plugins/tree/main/plugins/azure-tools
 
 | Claude Code                                    | Codex CLI                                                              | Gemini CLI                                                |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
-| `/plugin install claude-tools@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `claude-tools` | `gemini extensions install --path ./plugins/claude-tools` |
+| `/plugin install claude-tools@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `claude-tools` | `gemini extensions install --path ./plugins/claude-tools` |
 
 Commands for syncing CLAUDE.md and permissions allowlist from repository, plus context refresh for long conversations.
 
@@ -656,7 +656,7 @@ Commands for syncing CLAUDE.md and permissions allowlist from repository, plus c
 
 | Claude Code                                    | Codex CLI                                                              | Gemini CLI                                                |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
-| `/plugin install gcloud-tools@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `gcloud-tools` | `gemini extensions install --path ./plugins/gcloud-tools` |
+| `/plugin install gcloud-tools@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `gcloud-tools` | `gemini extensions install --path ./plugins/gcloud-tools` |
 
 **Skills CLI**
 
@@ -684,7 +684,7 @@ Logs, metrics, and traces. Run `/gcloud-tools:setup` after install.
 
 | Claude Code                                          | Codex CLI                                                                    | Gemini CLI                                                      |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| `/plugin install paper-search-tools@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `paper-search-tools` | `gemini extensions install --path ./plugins/paper-search-tools` |
+| `/plugin install paper-search-tools@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `paper-search-tools` | `gemini extensions install --path ./plugins/paper-search-tools` |
 
 **Skills CLI**
 
@@ -712,7 +712,7 @@ Search papers across arXiv, PubMed, IEEE, Scopus, ACM. Run `/paper-search-tools:
 
 | Claude Code                                    | Codex CLI                                                              | Gemini CLI                                                |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
-| `/plugin install tavily-tools@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `tavily-tools` | `gemini extensions install --path ./plugins/tavily-tools` |
+| `/plugin install tavily-tools@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `tavily-tools` | `gemini extensions install --path ./plugins/tavily-tools` |
 
 **Skills CLI**
 
@@ -746,7 +746,7 @@ Web search and content extraction. Run `/tavily-tools:setup` after install.
 
 | Claude Code                                       | Codex CLI                                                                 | Gemini CLI                                                   |
 | ------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| `/plugin install overleaf-skills@claude-settings` | Open `/plugins` -> `Claude & Codex Settings` -> install `overleaf-skills` | `gemini extensions install --path ./plugins/overleaf-skills` |
+| `/plugin install overleaf-skills@plugins` | Open `/plugins` -> `Claude & Codex Settings` -> install `overleaf-skills` | `gemini extensions install --path ./plugins/overleaf-skills` |
 
 **Skills CLI**
 

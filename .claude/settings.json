@@ -161,7 +161,7 @@
   "model": "opus",
   "autoScrollEnabled": false,
   "extraKnownMarketplaces": {
-    "claude-settings": {
+    "plugins": {
       "source": {
         "source": "github",
         "repo": "ruslands/plugins"
