@@ -1,0 +1,8 @@
+{
+  "name": "tdd-workflows",
+  "version": "1.3.0",
+  "description": "Run red-green-refactor workflows with TDD agents, review steps, and guided test-first commands.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "MIT"
+}
