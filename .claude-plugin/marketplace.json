@@ -767,6 +767,27 @@
       ]
     },
     {
+      "name": "yandex-direct-skills",
+      "source": "./plugins/yandex-direct-skills",
+      "description": "Yandex Direct skills for campaign audits, optimization, reporting, and full local reference docs.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "SEE LICENSE IN LICENSE.txt",
+      "keywords": [
+        "yandex-direct",
+        "ppc",
+        "advertising",
+        "campaigns",
+        "audit"
+      ],
+      "category": "advertising",
+      "tags": [
+        "advertising",
+        "reference"
+      ]
+    },
+    {
       "name": "amocrm-skills",
       "source": "./plugins/amocrm-skills",
       "description": "AmoCRM integration guidance for digital pipeline events, site visits, and CRM workflow setup.",

@@ -213,6 +213,13 @@
       "license": "MIT"
     },
     {
+      "name": "yandex-direct-skills",
+      "source": "./plugins/yandex-direct-skills",
+      "description": "Yandex Direct skills for campaign audits, optimization, reporting, and full local reference docs.",
+      "version": "1.0.0",
+      "license": "SEE LICENSE IN LICENSE.txt"
+    },
+    {
       "name": "amocrm-skills",
       "source": "./plugins/amocrm-skills",
       "description": "AmoCRM integration guidance for digital pipeline events, site visits, and CRM workflow setup.",

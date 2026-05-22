@@ -1,0 +1,10 @@
+This plugin bundles material from multiple upstream sources:
+
+- `agents/`, `references/`, and `scripts/` originate from `yandex-direct-skill-master`,
+  which includes an MIT license in the upstream source tree.
+- `docs/` originates from `yandex-direct-docs-main` and contains Yandex Direct
+  documentation content for local reference purposes. The upstream skill notes
+  that the content belongs to Yandex.
+
+Use and redistribution of the bundled documentation should follow the terms of
+the original content owners.

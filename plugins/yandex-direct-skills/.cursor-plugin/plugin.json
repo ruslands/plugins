@@ -1,0 +1,8 @@
+{
+  "name": "yandex-direct-skills",
+  "version": "1.0.0",
+  "description": "Yandex Direct skills for campaign audits, optimization, reporting, and full local reference docs.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "SEE LICENSE IN LICENSE.txt"
+}

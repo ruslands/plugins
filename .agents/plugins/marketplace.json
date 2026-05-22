@@ -365,6 +365,18 @@
       "category": "testing"
     },
     {
+      "name": "yandex-direct-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yandex-direct-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "advertising"
+    },
+    {
       "name": "amocrm-skills",
       "source": {
         "source": "local",
