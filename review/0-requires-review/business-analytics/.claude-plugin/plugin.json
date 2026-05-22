@@ -1,0 +1,10 @@
+{
+  "name": "business-analytics",
+  "version": "1.2.2",
+  "description": "Business metrics analysis, KPI tracking, financial reporting, and data-driven decision making",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

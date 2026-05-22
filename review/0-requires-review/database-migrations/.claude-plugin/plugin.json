@@ -1,0 +1,10 @@
+{
+  "name": "database-migrations",
+  "version": "1.2.0",
+  "description": "Database migration automation, observability, and cross-database migration strategies",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

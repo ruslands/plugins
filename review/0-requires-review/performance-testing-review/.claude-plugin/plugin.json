@@ -1,0 +1,10 @@
+{
+  "name": "performance-testing-review",
+  "version": "1.2.1",
+  "description": "Performance analysis, test coverage review, and AI-powered code quality assessment",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

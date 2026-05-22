@@ -1,0 +1,10 @@
+{
+  "name": "machine-learning-ops",
+  "version": "1.2.1",
+  "description": "ML model training pipelines, hyperparameter tuning, model deployment automation, experiment tracking, and MLOps workflows",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

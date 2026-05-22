@@ -1,0 +1,10 @@
+{
+  "name": "code-refactoring",
+  "version": "1.2.0",
+  "description": "Code cleanup, refactoring automation, and technical debt management with context restoration",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

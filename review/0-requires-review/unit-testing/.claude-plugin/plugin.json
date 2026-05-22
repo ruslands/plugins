@@ -1,0 +1,10 @@
+{
+  "name": "unit-testing",
+  "version": "1.2.0",
+  "description": "Unit and integration test automation for Python and JavaScript with debugging support",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

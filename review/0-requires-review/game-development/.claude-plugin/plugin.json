@@ -1,0 +1,10 @@
+{
+  "name": "game-development",
+  "version": "1.2.2",
+  "description": "Unity game development with C# scripting, Minecraft server plugin development with Bukkit/Spigot APIs",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

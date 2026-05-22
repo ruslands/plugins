@@ -1,0 +1,10 @@
+{
+  "name": "documentation-generation",
+  "version": "1.2.2",
+  "description": "OpenAPI specification generation, Mermaid diagram creation, tutorial writing, API reference documentation",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

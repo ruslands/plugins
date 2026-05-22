@@ -1,0 +1,10 @@
+{
+  "name": "observability-monitoring",
+  "version": "1.2.2",
+  "description": "Metrics collection, logging infrastructure, distributed tracing, SLO implementation, and monitoring dashboards",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

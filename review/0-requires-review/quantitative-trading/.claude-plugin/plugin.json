@@ -1,0 +1,10 @@
+{
+  "name": "quantitative-trading",
+  "version": "1.2.2",
+  "description": "Quantitative analysis, algorithmic trading strategies, financial modeling, portfolio risk management, and backtesting",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

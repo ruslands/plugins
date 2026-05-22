@@ -1,0 +1,10 @@
+{
+  "name": "content-marketing",
+  "version": "1.2.0",
+  "description": "Content marketing strategy, web research, and information synthesis for marketing operations",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

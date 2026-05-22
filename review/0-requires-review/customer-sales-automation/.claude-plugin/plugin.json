@@ -1,0 +1,10 @@
+{
+  "name": "customer-sales-automation",
+  "version": "1.2.0",
+  "description": "Customer support workflow automation, sales pipeline management, email campaigns, and CRM integration",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

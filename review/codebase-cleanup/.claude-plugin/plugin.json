@@ -1,0 +1,10 @@
+{
+  "name": "codebase-cleanup",
+  "version": "1.2.0",
+  "description": "Technical debt reduction, dependency updates, and code refactoring automation",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}

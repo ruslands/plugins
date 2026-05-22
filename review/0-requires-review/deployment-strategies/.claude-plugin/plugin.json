@@ -1,0 +1,10 @@
+{
+  "name": "deployment-strategies",
+  "version": "1.2.0",
+  "description": "Deployment patterns, rollback automation, and infrastructure templates",
+  "author": {
+    "name": "Ruslan",
+    "email": "noemail@email.com"
+  },
+  "license": "MIT"
+}
