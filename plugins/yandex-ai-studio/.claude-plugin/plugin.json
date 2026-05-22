@@ -1,0 +1,8 @@
+{
+  "name": "yandex-ai-studio",
+  "version": "1.0.0",
+  "description": "Yandex AI Studio guidance for model usage, platform setup, and implementation aligned with official docs.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "Apache-2.0"
+}

@@ -315,6 +315,102 @@
         "authentication": "ON_INSTALL"
       },
       "category": "research"
+    },
+    {
+      "name": "amocrm-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/amocrm-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "crm"
+    },
+    {
+      "name": "bitrix-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bitrix-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "crm"
+    },
+    {
+      "name": "langchain-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/langchain-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "ai"
+    },
+    {
+      "name": "memory-sync",
+      "source": {
+        "source": "local",
+        "path": "./plugins/memory-sync"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "save-to-memory",
+      "source": {
+        "source": "local",
+        "path": "./plugins/save-to-memory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "telegram-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/telegram-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "messaging"
+    },
+    {
+      "name": "voximplant-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/voximplant-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "communications"
+    },
+    {
+      "name": "yandex-ai-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yandex-ai-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "ai"
     }
   ]
 }

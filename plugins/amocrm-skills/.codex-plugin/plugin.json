@@ -1,0 +1,8 @@
+{
+  "name": "amocrm-skills",
+  "version": "1.0.0",
+  "description": "AmoCRM integration guidance for digital pipeline events, site visits, and CRM workflow setup.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "Apache-2.0"
+}

@@ -681,6 +681,174 @@
         "academic",
         "latex"
       ]
+    },
+    {
+      "name": "amocrm-skills",
+      "source": "./plugins/amocrm-skills",
+      "description": "AmoCRM integration guidance for digital pipeline events, site visits, and CRM workflow setup.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "amocrm",
+        "crm",
+        "digital-pipeline",
+        "site-visit",
+        "integration"
+      ],
+      "category": "crm",
+      "tags": [
+        "crm",
+        "integration"
+      ]
+    },
+    {
+      "name": "bitrix-skills",
+      "source": "./plugins/bitrix-skills",
+      "description": "Bitrix24 integration guidance for tasks, projects, and CRM automation using the platform API.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "bitrix24",
+        "bitrix",
+        "crm",
+        "tasks",
+        "integration"
+      ],
+      "category": "crm",
+      "tags": [
+        "crm",
+        "integration"
+      ]
+    },
+    {
+      "name": "langchain-skills",
+      "source": "./plugins/langchain-skills",
+      "description": "LangChain integration guidance for agent workflows, provider setup, and WhatsApp-based RAG patterns.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "langchain",
+        "rag",
+        "agents",
+        "whatsapp",
+        "integration"
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "framework"
+      ]
+    },
+    {
+      "name": "memory-sync",
+      "source": "./plugins/memory-sync",
+      "description": "Scan a repo for durable changes and turn them into structured memory updates after meaningful work.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "memory",
+        "knowledge",
+        "context",
+        "project-facts",
+        "sync"
+      ],
+      "category": "developer-tools",
+      "tags": [
+        "memory",
+        "context"
+      ]
+    },
+    {
+      "name": "save-to-memory",
+      "source": "./plugins/save-to-memory",
+      "description": "Save durable facts from completed work into structured memory without keeping transient task noise.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "memory",
+        "knowledge",
+        "facts",
+        "context",
+        "persistence"
+      ],
+      "category": "developer-tools",
+      "tags": [
+        "memory",
+        "context"
+      ]
+    },
+    {
+      "name": "telegram-skills",
+      "source": "./plugins/telegram-skills",
+      "description": "Telegram Bot API guidance for messaging flows, bot features, and platform integration work.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "telegram",
+        "bot",
+        "messaging",
+        "api",
+        "integration"
+      ],
+      "category": "messaging",
+      "tags": [
+        "messaging",
+        "integration"
+      ]
+    },
+    {
+      "name": "voximplant-skills",
+      "source": "./plugins/voximplant-skills",
+      "description": "Voximplant contact center guidance for platform workflows, service integration, and compliant implementation.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "voximplant",
+        "contact-center",
+        "telephony",
+        "voice",
+        "integration"
+      ],
+      "category": "communications",
+      "tags": [
+        "voice",
+        "integration"
+      ]
+    },
+    {
+      "name": "yandex-ai-studio",
+      "source": "./plugins/yandex-ai-studio",
+      "description": "Yandex AI Studio guidance for model usage, platform setup, and implementation aligned with official docs.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "yandex",
+        "ai-studio",
+        "models",
+        "llm",
+        "integration"
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "integration"
+      ]
     }
   ]
 }

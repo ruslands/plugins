@@ -1,0 +1,5 @@
+{
+  "name": "save-to-memory",
+  "version": "1.0.0",
+  "description": "Save durable facts from completed work into structured memory without keeping transient task noise."
+}

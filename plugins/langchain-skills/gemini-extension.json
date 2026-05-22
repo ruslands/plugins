@@ -1,0 +1,5 @@
+{
+  "name": "langchain-skills",
+  "version": "1.0.0",
+  "description": "LangChain integration guidance for agent workflows, provider setup, and WhatsApp-based RAG patterns."
+}

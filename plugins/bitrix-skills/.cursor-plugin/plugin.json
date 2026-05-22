@@ -1,0 +1,8 @@
+{
+  "name": "bitrix-skills",
+  "version": "1.0.0",
+  "description": "Bitrix24 integration guidance for tasks, projects, and CRM automation using the platform API.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "Apache-2.0"
+}

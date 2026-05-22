@@ -183,6 +183,62 @@
       "description": "Pull review comments from an Overleaf project, map them to local .tex files, and apply edits in your git-tracked repo.",
       "version": "1.0.0",
       "license": "Apache-2.0"
+    },
+    {
+      "name": "amocrm-skills",
+      "source": "./plugins/amocrm-skills",
+      "description": "AmoCRM integration guidance for digital pipeline events, site visits, and CRM workflow setup.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "bitrix-skills",
+      "source": "./plugins/bitrix-skills",
+      "description": "Bitrix24 integration guidance for tasks, projects, and CRM automation using the platform API.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "langchain-skills",
+      "source": "./plugins/langchain-skills",
+      "description": "LangChain integration guidance for agent workflows, provider setup, and WhatsApp-based RAG patterns.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "memory-sync",
+      "source": "./plugins/memory-sync",
+      "description": "Scan a repo for durable changes and turn them into structured memory updates after meaningful work.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "save-to-memory",
+      "source": "./plugins/save-to-memory",
+      "description": "Save durable facts from completed work into structured memory without keeping transient task noise.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "telegram-skills",
+      "source": "./plugins/telegram-skills",
+      "description": "Telegram Bot API guidance for messaging flows, bot features, and platform integration work.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "voximplant-skills",
+      "source": "./plugins/voximplant-skills",
+      "description": "Voximplant contact center guidance for platform workflows, service integration, and compliant implementation.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "yandex-ai-studio",
+      "source": "./plugins/yandex-ai-studio",
+      "description": "Yandex AI Studio guidance for model usage, platform setup, and implementation aligned with official docs.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
     }
   ]
 }

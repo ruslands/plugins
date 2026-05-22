@@ -1,0 +1,5 @@
+{
+  "name": "memory-sync",
+  "version": "1.0.0",
+  "description": "Scan a repo for durable changes and turn them into structured memory updates after meaningful work."
+}

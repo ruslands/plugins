@@ -1,0 +1,8 @@
+{
+  "name": "voximplant-skills",
+  "version": "1.0.0",
+  "description": "Voximplant contact center guidance for platform workflows, service integration, and compliant implementation.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "Apache-2.0"
+}
