@@ -65,11 +65,11 @@ Codex installs plugins from local marketplaces rather than a direct shell instal
 2. Open the repo in Codex. This repo already includes `.agents/plugins/marketplace.json`.
 3. If Codex was already open when you added or changed that marketplace file, restart Codex.
 4. In Codex, open `/plugins`.
-5. Choose `Claude & Codex Settings` and install the plugins you want.
+5. Choose `Plugins` and install the plugins you want.
 
 You do not need to create `~/.agents/plugins/marketplace.json` or copy plugin folders manually for this repo. The Codex marketplace is already part of the repository.
 
-If `Claude & Codex Settings` does not appear in `/plugins`, make sure you opened the repo root that contains `.agents/plugins/marketplace.json`, then restart Codex.
+If `Plugins` does not appear in `/plugins`, make sure you opened the repo root that contains `.agents/plugins/marketplace.json`, then restart Codex.
 
 For generic Codex marketplace examples and maintainer docs, see [CLAUDE.md](CLAUDE.md).
 

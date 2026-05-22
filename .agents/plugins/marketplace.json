@@ -1,7 +1,7 @@
 {
   "name": "plugins",
   "interface": {
-    "displayName": "Claude & Codex Settings"
+    "displayName": "Plugins"
   },
   "plugins": [
     {
