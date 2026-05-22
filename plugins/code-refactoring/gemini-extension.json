@@ -1,0 +1,5 @@
+{
+  "name": "code-refactoring",
+  "version": "1.2.0",
+  "description": "Refactor legacy code, clean up technical debt, and restore working context safely."
+}

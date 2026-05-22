@@ -185,6 +185,27 @@
       "license": "Apache-2.0"
     },
     {
+      "name": "c4-architecture",
+      "source": "./plugins/c4-architecture",
+      "description": "Generate C4 architecture documentation from code, components, containers, and system context in one workflow.",
+      "version": "1.0.0",
+      "license": "MIT"
+    },
+    {
+      "name": "code-documentation",
+      "source": "./plugins/code-documentation",
+      "description": "Generate code explanations, technical docs, and tutorials from an existing codebase.",
+      "version": "1.2.0",
+      "license": "MIT"
+    },
+    {
+      "name": "code-refactoring",
+      "source": "./plugins/code-refactoring",
+      "description": "Refactor legacy code, clean up technical debt, and restore working context safely.",
+      "version": "1.2.0",
+      "license": "MIT"
+    },
+    {
       "name": "amocrm-skills",
       "source": "./plugins/amocrm-skills",
       "description": "AmoCRM integration guidance for digital pipeline events, site visits, and CRM workflow setup.",

@@ -1,0 +1,5 @@
+{
+  "name": "code-documentation",
+  "version": "1.2.0",
+  "description": "Generate code explanations, technical docs, and tutorials from an existing codebase."
+}

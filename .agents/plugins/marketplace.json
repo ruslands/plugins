@@ -317,6 +317,42 @@
       "category": "research"
     },
     {
+      "name": "c4-architecture",
+      "source": {
+        "source": "local",
+        "path": "./plugins/c4-architecture"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "architecture"
+    },
+    {
+      "name": "code-documentation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/code-documentation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "documentation"
+    },
+    {
+      "name": "code-refactoring",
+      "source": {
+        "source": "local",
+        "path": "./plugins/code-refactoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "development"
+    },
+    {
       "name": "amocrm-skills",
       "source": {
         "source": "local",

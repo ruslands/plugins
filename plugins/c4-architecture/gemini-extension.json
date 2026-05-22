@@ -1,0 +1,5 @@
+{
+  "name": "c4-architecture",
+  "version": "1.0.0",
+  "description": "Generate C4 architecture documentation from code, components, containers, and system context in one workflow."
+}
