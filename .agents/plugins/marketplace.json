@@ -483,6 +483,30 @@
         "authentication": "ON_INSTALL"
       },
       "category": "video"
+    },
+    {
+      "name": "slop-detector",
+      "source": {
+        "source": "local",
+        "path": "./plugins/slop-detector"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "documentation"
+    },
+    {
+      "name": "notxbuty",
+      "source": {
+        "source": "local",
+        "path": "./plugins/notxbuty"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "documentation"
     }
   ]
 }

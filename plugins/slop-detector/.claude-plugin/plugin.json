@@ -1,0 +1,8 @@
+{
+  "name": "slop-detector",
+  "version": "1.0.0",
+  "description": "Spot AI-sounding academic prose, formulaic filler, and weak rhetorical scaffolding before it reaches a thesis or paper draft.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "Apache-2.0"
+}

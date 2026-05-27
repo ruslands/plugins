@@ -1,0 +1,5 @@
+{
+  "name": "notxbuty",
+  "version": "1.0.0",
+  "description": "Catch overused \"not X but Y\" contrast templates and rewrite them into direct thesis prose that says the same thing more clearly."
+}

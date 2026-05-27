@@ -977,6 +977,48 @@
         "video",
         "api"
       ]
+    },
+    {
+      "name": "slop-detector",
+      "source": "./plugins/slop-detector",
+      "description": "Spot AI-sounding academic prose, formulaic filler, and weak rhetorical scaffolding before it reaches a thesis or paper draft.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "writing",
+        "editing",
+        "academic",
+        "thesis",
+        "prose"
+      ],
+      "category": "documentation",
+      "tags": [
+        "writing",
+        "editing"
+      ]
+    },
+    {
+      "name": "notxbuty",
+      "source": "./plugins/notxbuty",
+      "description": "Catch overused \"not X but Y\" contrast templates and rewrite them into direct thesis prose that says the same thing more clearly.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "writing",
+        "editing",
+        "academic",
+        "rhetoric",
+        "prose"
+      ],
+      "category": "documentation",
+      "tags": [
+        "writing",
+        "editing"
+      ]
     }
   ]
 }
