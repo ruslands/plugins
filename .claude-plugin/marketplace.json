@@ -954,6 +954,29 @@
         "ai",
         "integration"
       ]
+    },
+    {
+      "name": "youtube-skill",
+      "source": "./plugins/youtube-skill",
+      "description": "Build YouTube Data API v3 integrations with guidance for channels, videos, playlists, comments, search, uploads, auth, quota, and response shaping.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "video",
+        "channel",
+        "playlist",
+        "captions",
+        "search",
+        "creator",
+        "api"
+      ],
+      "category": "video",
+      "tags": [
+        "video",
+        "api"
+      ]
     }
   ]
 }

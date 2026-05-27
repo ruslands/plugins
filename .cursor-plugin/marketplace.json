@@ -274,6 +274,13 @@
       "description": "Yandex AI Studio guidance for model usage, platform setup, and implementation aligned with official docs.",
       "version": "1.0.0",
       "license": "Apache-2.0"
+    },
+    {
+      "name": "youtube-skill",
+      "source": "./plugins/youtube-skill",
+      "description": "Build YouTube Data API v3 integrations with guidance for channels, videos, playlists, comments, search, uploads, auth, quota, and response shaping.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
     }
   ]
 }

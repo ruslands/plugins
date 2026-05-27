@@ -1,0 +1,8 @@
+{
+  "name": "youtube-skill",
+  "version": "1.0.0",
+  "description": "Build YouTube Data API v3 integrations with guidance for channels, videos, playlists, comments, search, uploads, auth, quota, and response shaping.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "Apache-2.0"
+}

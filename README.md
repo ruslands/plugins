@@ -763,6 +763,36 @@ Pull reviewer comments from an Overleaf project, locate each in your local git-t
 
 </details>
 
+<details>
+<summary><strong>youtube-skill</strong> - YouTube Data API v3 guidance for channels, videos, playlists, comments, captions, search, and uploads</summary>
+
+| Claude Code                                    | Codex CLI                                                              | Gemini CLI                                                |
+| ---------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
+| `/plugin install youtube-skill@plugins` | Open `/plugins` -> `Plugins` -> install `youtube-skill` | `gemini extensions install --path ./plugins/youtube-skill` |
+
+**Skills CLI**
+
+```bash
+npx skills add https://github.com/ruslands/plugins/tree/main/plugins/youtube-skill --skill '*'
+```
+
+Implementation guidance for YouTube Data API v3 based on the official overview and API reference. Covers auth decisions, resource/method routing, quota-aware design, `part`/`fields` response shaping, comments, captions, uploads, playlist traversal, and owner-only write flows.
+
+**Skills:**
+
+| Skill                                                                       | Description                                                                    | ZIP                                                                                                                                                                     |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`youtube-data-api`](./plugins/youtube-skill/skills/youtube-data-api/SKILL.md) | Resource selection, auth, quota, and implementation patterns for YouTube Data API v3 | [![ZIP](https://img.shields.io/badge/⬇%20ZIP-2ea44f?style=flat-square)](https://github.com/ruslands/plugins/releases/latest/download/youtube-data-api.zip) |
+
+**Reference files:**
+
+- [`getting-started.md`](./plugins/youtube-skill/skills/youtube-data-api/references/getting-started.md) - Map of the overview page: setup, resources, operations, quota, and partial responses
+- [`api-reference-map.md`](./plugins/youtube-skill/skills/youtube-data-api/references/api-reference-map.md) - Section-by-section map of resources, methods, and special write flows
+- [`task-routing.md`](./plugins/youtube-skill/skills/youtube-data-api/references/task-routing.md) - Fast mapping from user intent to resource, method, auth, and cheaper alternatives
+- [`error-troubleshooting.md`](./plugins/youtube-skill/skills/youtube-data-api/references/error-troubleshooting.md) - Official-error-oriented debugging guide for method failures
+
+</details>
+
 ---
 
 ## Configuration
