@@ -890,38 +890,11 @@ Settings in [`.vscode/settings.json`](./.vscode/settings.json):
 
 </details>
 
-## TODO
-
-**Visual demos:**
-
-- [ ] Add before/after comparison slider images or GIFs for each plugin showing the value visually
 
 **Zero-MCP goal:**
 
 - [ ] Replace MCP-based plugins with CLI alternatives where possible (mongodb, tavily, gcloud, azure, paper-search)
 
-**New plugins/skills:**
-
-- [x] Payments: [Stripe](https://stripe.com) best practices, [Polar](https://polar.sh) billing and local dev
-- [ ] Payments: [Paddle](https://www.paddle.com) billing and checkout skills
-- [x] Deployment: [Cloudflare](https://www.cloudflare.com) platform skill
-- [x] Deployment: [Hetzner Cloud](https://www.hetzner.com/cloud) CLI skill
-- [x] Deployment: [Dokploy](https://github.com/Dokploy/dokploy) deployment skill
-- [x] Frontend design: Anthropic + OpenAI frontend design skills (bundled as `frontend-design-skills`)
-- [ ] Frontend: [TanStack](https://tanstack.com) (Router, Query, Table, Form)
-- [x] Real-time: [LiveKit](https://livekit.io) voice/video agent skill
-- [x] Documents: Google Docs, PPTX, DOCX, Excel from OpenAI (bundled as `openai-office-skills`)
-- [ ] Auth: Clerk, Firebase patterns
-- [ ] Fullstack: FastAPI, NodeJS backends, Tailwind CSS v4, [shadcn/ui](https://github.com/shadcn-ui/ui), Sentry monitoring, [Web Vitals](https://nextjs.org/docs/app/api-reference/functions/use-report-web-vitals)
-- [ ] Productivity: [Caveman](https://github.com/JuliusBrussee/caveman) compressed output style saving ~75% of tokens
-
-**Static website:**
-
-- [ ] Publish `agentplugins.net` as a plugin catalog site with search, category filtering, per-tool install snippets, and GitHub Pages hosting
-
-**Other:**
-
-- [ ] Change marketplace and repo name to Agent Plugins instead of Claude Settings or Claude Codex Settings, and update the repo thumbnail
 
 ## References
 
@@ -936,14 +909,3 @@ Settings in [`.vscode/settings.json`](./.vscode/settings.json):
 - [AGENTS.md](https://agents.md/) - Cross-tool agent specification
 - [Agent Skills](https://agentskills.io/) - Open format for giving agents new capabilities
 
-## Thank you for the support!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ruslands/plugins&type=Date)](https://www.star-history.com/#ruslands/plugins&Date)
-
-<h3 align="center">Contributors</h3>
-
-<p align="center">
-    <a href="https://github.com/ruslands/plugins/graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=ruslands/plugins" />
-    </a>
-</p>
