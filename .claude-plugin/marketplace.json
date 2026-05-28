@@ -916,7 +916,7 @@
     {
       "name": "voximplant-skills",
       "source": "./plugins/voximplant-skills",
-      "description": "Voximplant contact center guidance for platform workflows, service integration, and compliant implementation.",
+      "description": "Voximplant guidance for VoxEngine scenarios, platform automation, call flow deployment, and debugging.",
       "version": "1.0.0",
       "homepage": "https://github.com/ruslands/plugins#plugins",
       "repository": "https://github.com/ruslands/plugins",

@@ -264,7 +264,7 @@
     {
       "name": "voximplant-skills",
       "source": "./plugins/voximplant-skills",
-      "description": "Voximplant contact center guidance for platform workflows, service integration, and compliant implementation.",
+      "description": "Voximplant guidance for VoxEngine scenarios, platform automation, call flow deployment, and debugging.",
       "version": "1.0.0",
       "license": "Apache-2.0"
     },
