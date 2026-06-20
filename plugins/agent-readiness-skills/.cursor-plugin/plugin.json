@@ -1,0 +1,8 @@
+{
+  "name": "agent-readiness-skills",
+  "version": "1.0.0",
+  "description": "Use Agent Browser to scan a public site for AI agent readiness gaps and turn the browser report into code fixes.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "Apache-2.0"
+}

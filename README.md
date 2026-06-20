@@ -793,6 +793,33 @@ Implementation guidance for YouTube Data API v3 based on the official overview a
 
 </details>
 
+<details>
+<summary><strong>agent-readiness-skills</strong> - Use Agent Browser to scan a deployed site for AI agent readiness gaps and turn the browser report into code changes</summary>
+
+| Claude Code                                              | Codex CLI                                                                        | Gemini CLI                                                          |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| `/plugin install agent-readiness-skills@plugins` | Open `/plugins` -> `Plugins` -> install `agent-readiness-skills` | `gemini extensions install --path ./plugins/agent-readiness-skills` |
+
+**Skills CLI**
+
+```bash
+npx skills add https://github.com/ruslands/plugins/tree/main/plugins/agent-readiness-skills --skill '*'
+```
+
+Use Agent Browser to open `isitagentready.com`, type the target URL, capture the rendered report plus its "Improve the score" instructions, turn the failing checks into local code or config edits, rerun the browser scan, and call out what still needs DNS, hosting, or deployment work. Best fit for teams that want concrete fixes for `robots.txt`, sitemaps, discovery headers, `.well-known` metadata, and related agent-facing web standards. Pairs naturally with `agent-browser` for the browser automation layer and `github-dev` for the commit step.
+
+**Skills:**
+
+| Skill                                                                                           | Description                                                              | ZIP                                                                                                                                                                            |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`agent-readiness-audit`](./plugins/agent-readiness-skills/skills/agent-readiness-audit/SKILL.md) | Scan a public site, map failures to repo-owned files, and apply fixes | [![ZIP](https://img.shields.io/badge/⬇%20ZIP-2ea44f?style=flat-square)](https://github.com/ruslands/plugins/releases/latest/download/agent-readiness-audit.zip) |
+
+**Scripts:**
+
+- [`scan_agent_readiness.py`](./plugins/agent-readiness-skills/scripts/scan_agent_readiness.py) - Optional helper to compare the browser result with the raw scanner API response
+
+</details>
+
 ---
 
 ## Configuration
@@ -908,4 +935,3 @@ Settings in [`.vscode/settings.json`](./.vscode/settings.json):
 - [Cursor Plugins](https://cursor.com/docs/reference/plugins) - Plugin format reference
 - [AGENTS.md](https://agents.md/) - Cross-tool agent specification
 - [Agent Skills](https://agentskills.io/) - Open format for giving agents new capabilities
-

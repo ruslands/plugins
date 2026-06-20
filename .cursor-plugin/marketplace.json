@@ -295,6 +295,13 @@
       "description": "Catch overused \"not X but Y\" contrast templates and rewrite them into direct thesis prose that says the same thing more clearly.",
       "version": "1.0.0",
       "license": "Apache-2.0"
+    },
+    {
+      "name": "agent-readiness-skills",
+      "source": "./plugins/agent-readiness-skills",
+      "description": "Use Agent Browser to scan a public site for AI agent readiness gaps and turn the browser report into code fixes.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
     }
   ]
 }
