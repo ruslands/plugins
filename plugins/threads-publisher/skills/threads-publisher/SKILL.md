@@ -13,6 +13,7 @@ Use this skill for Threads publishing work through the official Threads Graph AP
 - Keep auth, token exchange, and publish requests aligned with official Threads API behavior
 - Verify whether the task needs only `threads_basic` and `threads_content_publish` or also additional permissions
 - Catch the 500 UTF-8 byte text limit before attempting to publish
+- Read drafts from either markdown sections or a table with `Текст` and `Дата публикации` columns
 
 ## Bundled Files
 
@@ -24,7 +25,7 @@ Use this skill for Threads publishing work through the official Threads Graph AP
 
 ## Working Approach
 
-1. Read `.env.local` or ask the user for the missing Threads app values.
+1. Read `.env.local`, use `THREADS_ENV_FILE` for an external env file, or ask the user for missing Threads app values.
 2. For auth and tokens:
    - use `threads-auth.mjs auth-url`
    - use `threads-auth.mjs exchange-code`
@@ -35,6 +36,7 @@ Use this skill for Threads publishing work through the official Threads Graph AP
    - use `threads-user.mjs me` and `limit` for profile and quota checks
 4. For publishing:
    - use `threads-post.mjs list-drafts`
+   - use `--drafts-file /absolute/path/to/posts.md` when drafts live outside the plugin folder
    - use `threads-post.mjs split` for long drafts
    - use `threads-post.mjs publish` for text, image, or video posts
 5. Do not paste app secrets or long-lived tokens into tracked files.

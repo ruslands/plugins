@@ -16,6 +16,14 @@ Threads publishing plugin for Claude Code, Codex CLI, Gemini CLI, and Cursor.
 2. Fill in the Threads app values and token values
 3. Use the bundled scripts in `scripts/`
 
+You can also point the plugin at an external env file:
+
+```bash
+THREADS_ENV_FILE=/absolute/path/to/.env.local node scripts/threads-post.mjs list-drafts
+```
+
+Drafts can be stored either as markdown sections (`## Draft title`) or as a markdown table with columns `Текст` and `Дата публикации`. Table rows with an empty date or `-` are treated as unpublished drafts and get stable ids like `post-005`.
+
 ## Commands
 
 ```bash
@@ -34,6 +42,7 @@ node scripts/threads-user.mjs list-posts --limit 10
 
 ```bash
 node scripts/threads-post.mjs list-drafts
+node scripts/threads-post.mjs list-drafts --drafts-file /absolute/path/to/posts.md
 node scripts/threads-post.mjs split --draft 'Launch note'
 node scripts/threads-post.mjs publish --draft 'Launch note'
 node scripts/threads-post.mjs publish --text 'Hello from Threads'

@@ -97,7 +97,11 @@ export async function writeJson(path, payload) {
 }
 
 export async function loadConfig() {
-  const envFile = await loadDotenv();
+  const envPaths = [
+    normalizePath(process.env.THREADS_ENV_FILE, null),
+    ...DEFAULT_ENV_PATHS,
+  ].filter(Boolean);
+  const envFile = await loadDotenv(envPaths);
   const statePath = normalizePath(
     process.env.THREADS_STATE_FILE ?? envFile.THREADS_STATE_FILE,
     DEFAULT_STATE_PATH,
@@ -272,6 +276,11 @@ export function utf8Bytes(text) {
 
 export async function loadDrafts(draftsPath) {
   const raw = await readTextFile(draftsPath);
+  const tableDrafts = loadTableDrafts(raw);
+  if (tableDrafts.length > 0) {
+    return tableDrafts;
+  }
+
   const drafts = [];
   let current = null;
 
@@ -303,6 +312,107 @@ export async function loadDrafts(draftsPath) {
   }
 
   return drafts.filter((draft) => draft.body);
+}
+
+function splitMarkdownTableRow(line) {
+  const trimmed = line.trim();
+  if (!trimmed.startsWith("|") || !trimmed.endsWith("|")) {
+    return null;
+  }
+
+  const cells = [];
+  let current = "";
+  let escaped = false;
+  for (const char of trimmed.slice(1, -1)) {
+    if (escaped) {
+      current += char;
+      escaped = false;
+      continue;
+    }
+    if (char === "\\") {
+      current += char;
+      escaped = true;
+      continue;
+    }
+    if (char === "|") {
+      cells.push(current.trim());
+      current = "";
+      continue;
+    }
+    current += char;
+  }
+  cells.push(current.trim());
+  return cells;
+}
+
+function isMarkdownSeparatorRow(cells) {
+  return cells.every((cell) => /^:?-{3,}:?$/.test(cell.trim()));
+}
+
+function normalizeTablePostText(value) {
+  return value
+    .replace(/<br\s*\/?>/giu, "\n")
+    .replace(/&nbsp;/giu, " ")
+    .trim();
+}
+
+function isUnpublishedDate(value) {
+  const normalized = String(value ?? "").trim();
+  return !normalized || normalized === "-";
+}
+
+function loadTableDrafts(raw) {
+  const lines = raw.split(/\r?\n/);
+  let header = null;
+  let textIndex = -1;
+  let dateIndex = -1;
+  let rowsStarted = false;
+  let tableRowNumber = 0;
+  const drafts = [];
+
+  for (const line of lines) {
+    const cells = splitMarkdownTableRow(line);
+    if (!cells) {
+      if (rowsStarted) {
+        break;
+      }
+      continue;
+    }
+
+    if (!header) {
+      const candidateTextIndex = cells.findIndex((cell) => cell.trim() === "Текст");
+      const candidateDateIndex = cells.findIndex((cell) => cell.trim() === "Дата публикации");
+      if (candidateTextIndex === -1 || candidateDateIndex === -1) {
+        continue;
+      }
+
+      header = cells;
+      textIndex = candidateTextIndex;
+      dateIndex = candidateDateIndex;
+      continue;
+    }
+
+    if (isMarkdownSeparatorRow(cells)) {
+      rowsStarted = true;
+      continue;
+    }
+
+    rowsStarted = true;
+    tableRowNumber += 1;
+    const text = normalizeTablePostText(cells[textIndex] ?? "");
+    if (!text || !isUnpublishedDate(cells[dateIndex])) {
+      continue;
+    }
+
+    drafts.push({
+      level: 0,
+      title: `post-${String(tableRowNumber).padStart(3, "0")}`,
+      body: text,
+      source: "table",
+    });
+  }
+
+  return drafts;
 }
 
 export async function waitForContainer(config, containerId, { intervalMs = 5000, timeoutMs = 180000 } = {}) {
