@@ -1,0 +1,8 @@
+{
+  "name": "threads-publisher",
+  "version": "1.0.0",
+  "description": "Publish Threads posts with OAuth utilities, token inspection, draft splitting, and text or media posting scripts.",
+  "homepage": "https://github.com/ruslands/plugins#plugins",
+  "repository": "https://github.com/ruslands/plugins",
+  "license": "Apache-2.0"
+}

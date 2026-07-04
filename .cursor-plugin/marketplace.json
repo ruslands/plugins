@@ -302,6 +302,13 @@
       "description": "Use Agent Browser to scan a public site for AI agent readiness gaps and turn the browser report into code fixes.",
       "version": "1.0.0",
       "license": "Apache-2.0"
+    },
+    {
+      "name": "threads-publisher",
+      "source": "./plugins/threads-publisher",
+      "description": "Publish Threads posts with OAuth utilities, token inspection, draft splitting, and text or media posting scripts.",
+      "version": "1.0.0",
+      "license": "Apache-2.0"
     }
   ]
 }

@@ -519,6 +519,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "web-testing"
+    },
+    {
+      "name": "threads-publisher",
+      "source": {
+        "source": "local",
+        "path": "./plugins/threads-publisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "communications"
     }
   ]
 }

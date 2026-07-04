@@ -1040,6 +1040,27 @@
         "agents",
         "audit"
       ]
+    },
+    {
+      "name": "threads-publisher",
+      "source": "./plugins/threads-publisher",
+      "description": "Publish Threads posts with OAuth utilities, token inspection, draft splitting, and text or media posting scripts.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/ruslands/plugins#plugins",
+      "repository": "https://github.com/ruslands/plugins",
+      "license": "Apache-2.0",
+      "keywords": [
+        "social",
+        "publishing",
+        "oauth",
+        "content",
+        "creator"
+      ],
+      "category": "communications",
+      "tags": [
+        "social",
+        "api"
+      ]
     }
   ]
 }
